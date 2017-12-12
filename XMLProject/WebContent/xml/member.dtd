@@ -30,7 +30,7 @@
 
 -->
 <!ELEMENT member (list+)>
-<!ELEMENT list (id,pwd?,name,(hp|home)),from)>
+<!ELEMENT list (id,pwd?,name,(hp|home),from)>
 <!ATTLIST list no ID #REQUIRED>
 <!--
 	ID, IDREF(FOREIGN KEY), NOTATION(일반문자열) : 공백을 허용하지 않는다. 
